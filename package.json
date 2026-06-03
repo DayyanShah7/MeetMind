@@ -1,0 +1,13 @@
+{
+  "name": "meetmind-ai",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "server": "npm run dev -w apps/server",
+    "web": "npm run dev -w apps/web"
+  }
+}

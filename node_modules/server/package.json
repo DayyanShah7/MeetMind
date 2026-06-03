@@ -1,0 +1,15 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node src/index.js"
+  },
+  "dependencies": {
+    "@deepgram/sdk": "^5.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.18.3",
+    "ws": "^8.16.0"
+  }
+}
